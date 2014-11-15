@@ -1,14 +1,14 @@
 module.exports = [{
-  regionKey: 'us-east-1',
-  srcBucket: 'vmg-bucket',
-  preBucket: '',
-  frameBucket: '',
-  dstBucket: '',
-  thmbBucket: '',
-  coderSrcPreId: '',
-  coderSrcPreName: '',
-  coderSrcDstId: '',
-  coderSrcDstName: ''
+  regionKey: 'eu-west-1',
+  srcBucket: 'vmg-eu-west-1-src',
+  preBucket: 'vmg-eu-west-1-pre',
+  frameBucket: 'vmg-eu-west-1-frame',
+  dstBucket: 'vmg-eu-west-1-dst',
+  thmbBucket: 'vmg-eu-west-1-thmb',
+  coderSrcPreId: '1416090972388-3ln3xx',
+  coderSrcPreName: 'vmg-eu-west-1-src-pre',
+  coderSrcDstId: '1416091029975-vzqxit',
+  coderSrcDstName: 'vmg-eu-west-1-src-dst'
 }, {
   regionKey: 'eu-west-1',
   srcBucket: 'vmg-dev-src',
@@ -32,13 +32,3 @@ module.exports = [{
 //  coderSrcDstId: '1415923467055-rb1vuq',
 //  coderSrcDstName: 'vmg-us-east-1-src-dst'
 // real in production
-//  regionKey: 'eu-west-1',
-//  srcBucket: 'vmg-eu-west-1-src',
-//  //  pre: 'vmg-eu-west-1-pre',
-//  //  frame: 'vmg-eu-west-1-frame',
-//  //  dst: 'vmg-eu-west-1-dst',
-//  //  thmb: 'vmg-eu-west-1-thmb',
-//  coderSrcPreId: '1415922354025-sluzkn',
-//  coderSrcPreName: 'vmg-eu-west-1-src-pre',
-//  coderSrcDstId: '1415922997175-mdn4sq',
-//  coderSrcDstName: 'vmg-eu-west-1-src-dst'

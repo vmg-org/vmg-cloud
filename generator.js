@@ -95,8 +95,10 @@ var handleStorage = function(strg) {
 
   //  var srcPreParams = buildParams(strg.coderSrcPreName, strg.srcBucket, strg.preBucket, strg.frameBucket);
   //  etr.createPipeline(srcPreParams, handleCreatePipeline);
-  //  var srcDstParams = buildParams(strg.coderSrcDstName, strg.srcBucket, strg.dstBucket, strg.thmbBucket);
-  //  etr.createPipeline(srcDstParams, handleCreatePipeline);
+  var srcDstParams = buildParams(strg.coderSrcDstName, strg.srcBucket, strg.dstBucket, strg.thmbBucket);
+  etr.createPipeline(srcDstParams, handleCreatePipeline);
 };
 
-arrStorage.forEach(handleStorage);
+handleStorage(arrStorage[0]);
+
+//arrStorage.forEach(handleStorage);
