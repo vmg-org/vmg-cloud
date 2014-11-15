@@ -16,6 +16,7 @@ module.exports = [{
   coderSrcDstId: '1416091029975-vzqxit',
   coderSrcDstName: 'vmg-eu-west-1-src-dst'
 }, {
+  regionKey: 'us-east-1',
   srcBucket: 'vmg-us-east-1-src',
   preBucket: 'vmg-us-east-1-pre',
   frameBucket: 'vmg-us-east-1-frame',
